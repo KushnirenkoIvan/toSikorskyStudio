@@ -1,0 +1,45 @@
+body {
+    background-image: url("../resources/images/36_city_wallpapers.jpg");
+    background-size: 100%;
+    font-family: monospace;
+}
+
+.main {
+    width: 70%;
+    height: 70%;
+    border-radius: 10px 10px 10px 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: #ffd250;
+    opacity: 0.8;
+    margin: auto;
+    padding: 10px;
+}
+
+.StringShow {
+    width: 90%;
+    height: 40%;
+    border-radius: 10px 10px 10px 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: #ffe673;
+    padding: 10px;
+    margin: 10px;
+}
+
+#sortable {
+    cursor: default;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*width: 60%;*/
+}
+
+#sortable li {
+    cursor: default;
+    margin: 0 3px 3px 3px;
+    padding: 0.1em;
+    padding-left: 0.5em;
+}
